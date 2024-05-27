@@ -4,7 +4,7 @@ The Water Intake Calculator is a simple and efficient tool designed to help user
 ## Getting Started
 ```
 $ git clone https://github.com/your-username/water-intake-calculator.git
-$ cd water-intake-calculator
+$ cd waterIntakeCal
 $ npm install
 $ npm run dev
 ```
