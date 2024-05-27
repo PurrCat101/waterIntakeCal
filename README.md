@@ -1,27 +1,14 @@
-# React + TypeScript + Vite
+# Water Intake Calculator
+The Water Intake Calculator is a simple and efficient tool designed to help users determine their daily water intake based on their weight. By inputting your weight in kilograms, the calculator provides you with the recommended amount of water you should drink each day to stay hydrated and healthy.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+$ git clone https://github.com/your-username/water-intake-calculator.git
+$ cd water-intake-calculator
+$ npm install
+$ npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+Before you begin, ensure you have met the following requirements:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Node.js: Make sure you have Node.js installed.
